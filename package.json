@@ -1,6 +1,6 @@
 {
   "name": "nano-vanity-address-finder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Finds NANO seeds that generate the desired addresses",
   "main": "index.js",
   "bin": "bin/cli.js",

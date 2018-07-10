@@ -24,7 +24,7 @@ let timeout = null
 function makeVanitySeedPromise() {
     return new Promise((resolve) => {
         for(let i of [...Array(cpuCount).keys()]) {
-            const worker = fork('./src/VanityAddressFinderWorker.js')
+            const worker = fork(`${__dirname}/src/VanityAddressFinderWorker.js`)
             worker.on('message', (message) => {
                 if(message.check) {
                     checks += 1
