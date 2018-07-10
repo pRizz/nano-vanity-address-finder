@@ -1,0 +1,27 @@
+{
+  "name": "nano-vanity-address-finder",
+  "version": "1.0.0",
+  "description": "Finds NANO seeds that generate the desired addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pRizz/nano-vanity-address-finder.git"
+  },
+  "keywords": [
+    "NANO"
+  ],
+  "author": "Peter Ryszkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pRizz/nano-vanity-address-finder/issues"
+  },
+  "homepage": "https://github.com/pRizz/nano-vanity-address-finder#readme",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "moment": "^2.22.2",
+    "nano-lib": "^0.2.1"
+  }
+}
